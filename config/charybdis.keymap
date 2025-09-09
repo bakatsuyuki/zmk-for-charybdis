@@ -11,6 +11,14 @@
     quick-tap-ms = <150>;
 };
 
+&mt {
+    tapping-term-ms = <200>;
+    flavor = "tap-preferred";
+    quick-tap-ms = <150>;
+    hold-trigger-on-release;
+    retro-tap;
+};
+
 / {
     macros {
         To1_macro: To1_macro {
