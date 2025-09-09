@@ -82,7 +82,7 @@
             bindings = <
 &kp ESC  &trans  &trans  &trans  &trans    &bt BT_SEL 0  &trans  &kp UP  &trans  &bt BT_CLR
 &kp TAB  &trans  &trans  &trans  &bootloader    &bt BT_SEL 1  &kp LEFT  &kp DOWN  &kp RIGHT  &bootloader
-&trans  &trans  &trans  &trans  &trans    &bt BT_SEL 2  &trans  &kp LC(LEFT)  &trans  &kp LC(RIGHT)
+&pw1     &pw2    &pw3    &trans  &trans    &bt BT_SEL 2  &trans  &kp LC(LEFT)  &trans  &kp LC(RIGHT)
             &trans  &trans  &trans  &trans  &trans
             >;
         };
