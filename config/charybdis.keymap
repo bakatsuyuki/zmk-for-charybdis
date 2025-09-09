@@ -5,6 +5,8 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/outputs.h>
 
+#include "secrets.keymap.inc"
+
 &lt {
     tapping-term-ms = <200>;
     flavor = "balanced";
