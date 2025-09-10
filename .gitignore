@@ -1,2 +1,10 @@
 config/secrets.keymap.inc
+.west/
+build_left/
+build_right/
+dist/
+modules/
+zephyr/
+zmk/
+zmk-pmw3610-driver/
 
