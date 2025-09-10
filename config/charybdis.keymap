@@ -5,7 +5,6 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/outputs.h>
 
-#include "secrets.keymap.inc"
 
 &lt {
     tapping-term-ms = <200>;
@@ -82,7 +81,7 @@
             bindings = <
 &kp ESC  &trans  &trans  &trans  &trans    &bt BT_SEL 0  &trans  &kp UP  &trans  &trans
 &kp TAB  &trans  &trans  &trans  &bootloader    &bt BT_SEL 1  &kp LEFT  &kp DOWN  &kp RIGHT  &bootloader
-&pw1     &pw2    &pw3    &trans  &trans    &bt BT_SEL 2  &trans  &kp LC(LEFT)  &trans  &kp LC(RIGHT)
+&trans   &trans  &trans  &trans  &trans    &bt BT_SEL 2  &trans  &kp LC(LEFT)  &trans  &kp LC(RIGHT)
             &trans  &trans  &trans  &trans  &trans
             >;
         };
